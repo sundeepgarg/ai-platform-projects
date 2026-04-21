@@ -6,7 +6,7 @@ This project is intentionally light on infrastructure and heavy on flow visibili
 
 ## Quick Start
 
-Run these commands from `D:\Local\git_repos\MLOps`:
+Run these commands from `D:\Local\git_repos\ai-platform-projects`:
 
 ```powershell
 python -m venv .venv
@@ -15,6 +15,27 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 uvicorn app.main:app --reload
 ```
+
+## Project Status
+
+Current status: complete as a learning and portfolio project.
+
+What is already implemented:
+
+- FastAPI AI gateway
+- guardrails before inference
+- retrieval over enterprise knowledge documents
+- provider abstraction for mock mode and Amazon Bedrock
+- traceable responses with request metadata and flow steps
+- evaluation endpoint with repeatable test prompts
+- automated tests and GitHub Actions CI
+
+What can be added later:
+
+- vector database integration
+- Bedrock Knowledge Bases
+- richer guardrails and policy checks
+- screenshots and demo video for stronger portfolio presentation
 
 Open:
 
