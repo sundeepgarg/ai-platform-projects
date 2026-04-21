@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-observability",
+    "title": "AI platform observability baseline",
+    "content": "Platform AI services should emit structured logs, correlation identifiers, provider metadata, latency measurements, and clear error categories. Traceable requests are essential for production support and auditability.",
+    "tags": ["observability", "platform", "logging", "support"]
+  },
+  {
+    "id": "guardrails-policy",
+    "title": "Enterprise guardrails policy",
+    "content": "Guardrails should validate inputs before model invocation, detect prompt attacks, block secret exposure, and produce explainable policy decisions. Safe rejection paths are part of platform reliability, not only security.",
+    "tags": ["guardrails", "security", "responsible-ai", "policy"]
+  },
+  {
+    "id": "rag-pattern",
+    "title": "Retrieval pattern for enterprise knowledge",
+    "content": "Retrieval improves enterprise answers by grounding prompts in approved documents such as runbooks, standards, and architecture notes. Retrieval should be observable and should expose the chosen sources for review.",
+    "tags": ["rag", "retrieval", "knowledge", "context"]
+  },
+  {
+    "id": "provider-abstraction",
+    "title": "Model provider abstraction",
+    "content": "Platform services should isolate provider-specific logic behind a stable interface so teams can switch between mock, managed cloud inference, or future providers without rewriting orchestration and policy layers.",
+    "tags": ["provider", "bedrock", "abstraction", "platform"]
+  },
+  {
+    "id": "evaluation-practice",
+    "title": "Evaluation driven platform quality",
+    "content": "AI platforms should evaluate prompt and response quality using repeatable test cases before releasing changes. Small built-in evals are useful even when full model benchmarking is not yet available.",
+    "tags": ["evals", "quality", "testing", "release"]
+  }
+]
+

@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Why are structured logs important in an AI platform?",
+    "expected_keyword": "structured logs",
+    "top_k": 2
+  },
+  {
+    "question": "Why do we need provider abstraction in a platform service?",
+    "expected_keyword": "provider",
+    "top_k": 2
+  },
+  {
+    "question": "Why should guardrails run before the model call?",
+    "expected_keyword": "guardrails",
+    "top_k": 2
+  }
+]
+
